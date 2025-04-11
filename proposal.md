@@ -4,7 +4,7 @@
 ### Integrantes
 * 42895 - Gagliano Gustavo Daniel
 * 46413 - Tomas Sebriá
-* 45823 - Fabrizio Finos
+* 45283 - Finos Fabrizio
 
 ### Repositorios
 * [frontend app]([http://hyperlinkToGihubOrGitlab](https://github.com/daniel-gagliano/DSW-305-FrontEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos)
