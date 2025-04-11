@@ -5,8 +5,8 @@
 * 42895 - Gagliano Gustavo Daniel
 
 ### Repositorios
-* [frontend app]([http://hyperlinkToGihubOrGitlab](https://github.com/daniel-gagliano/DSW-305-FrontEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos))
-* [backend app]([http://hyperlinkToGihubOrGitlab](https://github.com/daniel-gagliano/DSW-305-BackEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos))
+* [frontend app]([http://hyperlinkToGihubOrGitlab](https://github.com/daniel-gagliano/DSW-305-FrontEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos)
+* [backend app]([http://hyperlinkToGihubOrGitlab](https://github.com/daniel-gagliano/DSW-305-BackEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos)
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
