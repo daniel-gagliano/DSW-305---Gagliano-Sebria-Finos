@@ -3,6 +3,7 @@
 ## Grupo
 ### Integrantes
 * 42895 - Gagliano Gustavo Daniel
+* 46413 - Tomas Sebriá
 
 ### Repositorios
 * [frontend app]([http://hyperlinkToGihubOrGitlab](https://github.com/daniel-gagliano/DSW-305-FrontEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos)
@@ -11,7 +12,9 @@
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+E-Commerce de venta de artículos (a definir), contara con funciones de compra, carrito de compras, todos los medios de pago, envio, comentario. 
+Caracteristicas del sistema: categoria, precios
+Usuario: creacion de cuenta, historial de pedidos, medios de pago guardados 
 
 ### Modelo
 ![imagen del modelo]()
