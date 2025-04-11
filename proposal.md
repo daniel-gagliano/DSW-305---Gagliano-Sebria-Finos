@@ -2,7 +2,7 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 42895 - Gagliano Gustavo Daniel
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
