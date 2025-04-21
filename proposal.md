@@ -38,7 +38,7 @@ Administradores pueden:
 * Generar reportes de ventas.
 
 ### Modelo
-* [DER del Sistema](https://drive.google.com/file/d/1BZQoahF2bSY6CTUdq1yX23VDhRBcwiT6/view?usp=drive_link)
+* [DER del Sistema](https://app.diagrams.net/#G1myYfXroVpWCHGZ4Tq-Q7noSUw5BcjAS2#%7B%22pageId%22%3A%22XESWSvZLTYiYK9NH1nre%22%7D)
 
 ## Alcance Funcional 
 
@@ -50,13 +50,13 @@ Regularidad:
 |CRUD simple|1. CRUD Categoria<br>2. CRUD Metodo_Pago<br>3. CRUD Usuario|
 |CRUD dependiente|1. CRUD Articulo {depende de} CRUD Categoria<br>2. CRUD Cliente {depende de} CRUD Usuario|
 |Listado<br>+<br>detalle| 1.Listado de productos filtrado por categoría o nombre: Muestra nombre del producto, imagen, precio y disponibilidad.<br>2. Listado de pedidos filtrado por rango de fechas o estado del pedido: Muestra número de pedido, fecha, estado y total.|
-|CUU/Epic|1. Comprar un producto en línea: El cliente puede buscar productos, agregarlos al carrito, y completar el proceso de compra con pasarela de pago integrada.<br>2. Gestionar el catálogo de productos: El administrador puede crear, editar, eliminar y visualizar productos con sus respectivos precios, imágenes y stock disponible.|
+|CUU/Epic|1. Comprar un producto en línea: El cliente puede buscar productos, agregarlos al carrito, y completar el proceso de compra.<br>2. Gestionar el catálogo de productos: El administrador puede crear, editar, eliminar y visualizar productos con sus respectivos precios, imágenes y stock disponible.|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Categoria<br>2. CRUD Articulo<br>3. CRUD Pedido<br>4. CRUD Metodo_Pago<br>5. CRUD Cliente<br>6. CRUD Usuario<br>7. CRUD Admin<br>8. CRUD Localidad<br>9. CRUD Provincia<br>|
+|CRUD |1. CRUD Categoria<br>2. CRUD Articulo<br>3. CRUD Pedido<br>4. CRUD Metodo_Pago<br>5. CRUD Cliente<br>6. CRUD Usuario<br>7. CRUD Admin<br>8. CRUD Localidad<br>9. CRUD Provincia<br>10. CRUD Estado_Pedido<br>11. CRUD Descuento<br>12. CRUD Pedido<br>|
 |CUU/Epic|1. Comprar un producto en línea: El cliente puede buscar productos, agregarlos al carrito, y completar el proceso de compra con pasarela de pago integrada.<br>2. Gestionar el catálogo de productos:El administrador puede crear, editar, eliminar y visualizar productos con sus respectivos precios, imágenes y stock disponible.<br>3. Consultar el historial de compras:Los usuarios registrados pueden ver sus compras pasadas, con detalles de cada pedido.|
 
 
