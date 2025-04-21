@@ -7,50 +7,59 @@
 * 45283 - Finos Fabrizio
 
 ### Repositorios
-* [frontend app]([http://hyperlinkToGihubOrGitlab](https://github.com/daniel-gagliano/DSW-305-FrontEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos)
-* [backend app]([http://hyperlinkToGihubOrGitlab](https://github.com/daniel-gagliano/DSW-305-BackEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+* [frontend app](https://github.com/daniel-gagliano/DSW-305-FrontEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos)
+* [backend app](https://github.com/daniel-gagliano/DSW-305-BackEnd--Gagliano-Sebri-FinosDSW-305---Gagliano-Sebria-Finos)
+
 
 ## Tema
 ### Descripción
-E-Commerce de venta de artículos (a definir), contara con funciones de compra, carrito de compras, todos los medios de pago, envio, comentario. 
-Caracteristicas del sistema: categoria, precios
-Usuario: creacion de cuenta, historial de pedidos, medios de pago guardados 
+Este sistema de ecommerce es una plataforma web diseñada para facilitar la compra y venta de productos en línea. Permite a los usuarios explorar un catálogo digital, buscar artículos por categoría o palabra clave, agregar productos al carrito y realizar pagos de forma segura.
+
+El sistema incluye funcionalidades tanto para clientes como para administradores:
+
+Clientes pueden:
+
+* Registrarse e iniciar sesión.
+
+* Navegar por productos.
+
+* Agregar artículos al carrito y gestionar su compra.
+
+* Realizar pagos a través de métodos integrados.
+
+* Consultar el historial de pedidos.
+
+Administradores pueden:
+
+* Administrar productos, inventario y categorías.
+
+* Administrar usuarios y sus pedidos.
+
+* Generar reportes de ventas.
 
 ### Modelo
-![imagen del modelo]()
-
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+* [DER del Sistema](https://drive.google.com/file/d/1BZQoahF2bSY6CTUdq1yX23VDhRBcwiT6/view?usp=drive_link)
 
 ## Alcance Funcional 
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Categoria<br>2. CRUD Metodo_Pago<br>3. CRUD Usuario|
+|CRUD dependiente|1. CRUD Articulo {depende de} CRUD Categoria<br>2. CRUD Cliente {depende de} CRUD Usuario|
+|Listado<br>+<br>detalle| 1.Listado de productos filtrado por categoría o nombre: Muestra nombre del producto, imagen, precio y disponibilidad.<br>2. Listado de pedidos filtrado por rango de fechas o estado del pedido: Muestra número de pedido, fecha, estado y total.|
+|CUU/Epic|1. Comprar un producto en línea: El cliente puede buscar productos, agregarlos al carrito, y completar el proceso de compra con pasarela de pago integrada.<br>2. Gestionar el catálogo de productos: El administrador puede crear, editar, eliminar y visualizar productos con sus respectivos precios, imágenes y stock disponible.|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Categoria<br>2. CRUD Articulo<br>3. CRUD Pedido<br>4. CRUD Metodo_Pago<br>5. CRUD Cliente<br>6. CRUD Usuario<br>7. CRUD Admin<br>8. CRUD Localidad<br>9. CRUD Provincia<br>|
+|CUU/Epic|1. Comprar un producto en línea: El cliente puede buscar productos, agregarlos al carrito, y completar el proceso de compra con pasarela de pago integrada.<br>2. Gestionar el catálogo de productos:El administrador puede crear, editar, eliminar y visualizar productos con sus respectivos precios, imágenes y stock disponible.<br>3. Consultar el historial de compras:Los usuarios registrados pueden ver sus compras pasadas, con detalles de cada pedido.|
 
 
 ### Alcance Adicional Voluntario
 
-*Nota*: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcionalidad del sistema esté completa y será considerado en la nota en función de su complejidad y esfuerzo.
-
-|Req|Detalle|
-|:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
 
